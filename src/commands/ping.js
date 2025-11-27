@@ -51,7 +51,7 @@ async function pingCommand(sock, chatId, message) {
         const uptimeInSeconds = process.uptime();
         const uptimeFormatted = formatTime(uptimeInSeconds);
 
-        const botInfo = `> *𝐀𝐑𝐒𝐋𝐀𝐍 𝐓𝐄𝐂𝐇 𝐁𝐎𝐓 𝐑𝐄𝐒𝐏𝐎𝐍𝐒𝐄: ${ping} ms ${randomEmoji}*\n> *sᴛᴀᴛᴜs: ${color} ${badge}*\n> *ᴜᴘᴛɪᴍᴇ: ${uptimeFormatted}*\n> *ᴠᴇʀsɪᴏɴ: ${settings.version}*`;
+        const botInfo = `> *𝐓𝐊𝐓-𝐂𝐘𝐁𝐄𝐑_𝐌𝐃 𝐁𝐎𝐓 𝐑𝐄𝐒𝐏𝐎𝐍𝐒𝐄: ${ping} ms ${randomEmoji}*\n> *sᴛᴀᴛᴜs: ${color} ${badge}*\n> *ᴜᴘᴛɪᴍᴇ: ${uptimeFormatted}*\n> *ᴠᴇʀsɪᴏɴ: ${settings.version}*`;
 
         // Reply to the original message with the bot info
         
@@ -62,8 +62,8 @@ await sock.sendMessage(chatId, {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: 'Arslan-Tech',
+                    newsletterJid: '120363418027651738@newsletter',
+                    newsletterName: 'TKT-TECH',
                     serverMessageId: -1
                 }
             }
